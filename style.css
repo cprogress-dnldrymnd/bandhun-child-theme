@@ -520,12 +520,15 @@ input.error {
 :root {
   --light-color: #fffdf4; }
 
-.header-version-one .navbar {
+.header-version-one.header-version-one .navbar {
   background-color: var(--light-color);
   padding-top: 22px;
   padding-bottom: 22px; }
-.header-version-one .container {
+  .header-version-one.header-version-one .navbar .navbar-nav .nav-link {
+    padding: 10px; }
+.header-version-one.header-version-one .container {
   background-color: var(--white-color);
-  border-radius: 51px; }
+  border-radius: 51px;
+  padding: 15px 4vw !important; }
 
 /*# sourceMappingURL=style.css.map */

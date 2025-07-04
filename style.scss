@@ -841,14 +841,19 @@ input.error {
   --light-color: #fffdf4;
 }
 
-.header-version-one {
+.header-version-one.header-version-one {
   .navbar {
     background-color: var(--light-color);
     padding-top: 22px;
     padding-bottom: 22px;
+    .navbar-nav .nav-link {
+      padding: 10px;
+
+    }
   }
   .container {
     background-color: var(--white-color);
     border-radius: 51px;
+    padding: 15px 4vw !important;
   }
 }
