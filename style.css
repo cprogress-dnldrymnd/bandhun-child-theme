@@ -619,4 +619,16 @@ h6 {
 body {
   font-family: "Sofia Pro", sans-serif; }
 
+h1 {
+  font-size: 62px; }
+  @media (max-width: 1199px) {
+    h1 {
+      font-size: 52px; } }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 42px; } }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 32px; } }
+
 /*# sourceMappingURL=style.css.map */

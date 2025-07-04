@@ -283,7 +283,6 @@ header {
   }
 }
 
-
 #weddingdir_vendor_login_model_popup,
 #weddingdir_couple_login_model_popup {
   .modal-dialog {
@@ -986,4 +985,17 @@ h6 {
 
 body {
   font-family: "Sofia Pro", sans-serif;
+}
+
+h1 {
+  font-size: 62px;
+  @media (max-width: 1199px) {
+    font-size: 52px;
+  }
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+  @media (max-width: 767px) {
+    font-size: 32px;
+  }
 }
