@@ -661,6 +661,9 @@ footer .footer-section.footer-section {
     font-size: 27px;
     color: var(--e-global-color-text);
     font-family: "Georgia", Sans-serif; }
+  footer .footer-section.footer-section .footer-widget p {
+    font-weight: 400;
+    color: var(--e-global-color-text); }
   footer .footer-section.footer-section .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;

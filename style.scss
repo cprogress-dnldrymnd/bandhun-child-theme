@@ -1034,13 +1034,19 @@ footer .footer-section.footer-section {
     color: var(--e-global-color-text);
     font-size: 27px;
   }
-  .footer-widget ul {
-    li {
-      a {
-        font-size: 27px;
-        color: var(--e-global-color-text);
-        font-family: "Georgia", Sans-serif;
+  .footer-widget {
+    ul {
+      li {
+        a {
+          font-size: 27px;
+          color: var(--e-global-color-text);
+          font-family: "Georgia", Sans-serif;
+        }
       }
+    }
+    p {
+      font-weight: 400;
+      color: var(--e-global-color-text);
     }
   }
   .container {
@@ -1058,5 +1064,5 @@ footer .footer-section.footer-section {
   padding: 10px 22px;
   background-color: transparent;
   border-radius: 34px;
-      border: 1px solid var(--light-gray-color);
+  border: 1px solid var(--light-gray-color);
 }
