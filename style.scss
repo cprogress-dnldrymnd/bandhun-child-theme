@@ -986,9 +986,12 @@ h6 {
 body {
   font-family: "Sofia Pro", sans-serif;
 }
-
-h1 {
-  @media (max-width: 1199px) {
+@media (max-width: 1199px) {
+  h1 {
     font-size: 52px;
+  }
+
+  h2 {
+    font-size: 48px;
   }
 }
