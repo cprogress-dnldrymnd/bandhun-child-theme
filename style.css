@@ -582,7 +582,7 @@ input.error {
 
 .slider-versin-two.slider-versin-two .slider-content {
   position: static;
-  width: 85%;
+  width: 100%;
   transform: none; }
   .slider-versin-two.slider-versin-two .slider-content h1 {
     text-align: left;
