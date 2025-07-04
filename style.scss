@@ -1055,14 +1055,15 @@ footer .footer-section.footer-section {
       flex-grow: 1;
     }
   }
+  .mr-top-footer {
+    > div {
+      width: 100 !important;
+    }
+  }
   .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
     padding: 100px 6vw;
-  }
-  .mr-top-footer{
-    .weddingdir-footer-block {
-      width: 100%;
   }
 }
 
