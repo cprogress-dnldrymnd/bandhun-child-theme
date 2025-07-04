@@ -521,7 +521,9 @@ input.error {
   --light-color: #fffdf4; }
 
 .header-version-one .navbar {
-  background-color: var(--light-color); }
+  background-color: var(--light-color);
+  padding-top: 22px;
+  padding-bottom: 22px; }
 .header-version-one .container {
   background-color: var(--white-color);
   border-radius: 51px; }
