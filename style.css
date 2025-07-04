@@ -580,25 +580,27 @@ input.error {
   border-radius: 51px;
   padding: 15px 4vw !important; }
 
-.slider-versin-two.slider-versin-two .slider-content h1 {
-  text-align: left;
-  color: var(--e-global-color-text);
-  margin-bottom: 30px;
-  font-size: 62px; }
-  @media (max-width: 1199px) {
-    .slider-versin-two.slider-versin-two .slider-content h1 {
-      font-size: 52px; } }
-  @media (max-width: 991px) {
-    .slider-versin-two.slider-versin-two .slider-content h1 {
-      font-size: 42px; } }
-  @media (max-width: 767px) {
-    .slider-versin-two.slider-versin-two .slider-content h1 {
-      font-size: 32px; } }
-.slider-versin-two.slider-versin-two .slider-content .lead {
-  display: none;
-  color: var(--e-global-color-text); }
-.slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
-  gap: 0 !important; }
+.slider-versin-two.slider-versin-two .slider-content {
+  width: 85%; }
+  .slider-versin-two.slider-versin-two .slider-content h1 {
+    text-align: left;
+    color: var(--e-global-color-text);
+    margin-bottom: 30px;
+    font-size: 62px; }
+    @media (max-width: 1199px) {
+      .slider-versin-two.slider-versin-two .slider-content h1 {
+        font-size: 52px; } }
+    @media (max-width: 991px) {
+      .slider-versin-two.slider-versin-two .slider-content h1 {
+        font-size: 42px; } }
+    @media (max-width: 767px) {
+      .slider-versin-two.slider-versin-two .slider-content h1 {
+        font-size: 32px; } }
+  .slider-versin-two.slider-versin-two .slider-content .lead {
+    display: none;
+    color: var(--e-global-color-text); }
+  .slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
+    gap: 0 !important; }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .before-input-box {
   display: none !important; }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .form-light.form-control {
@@ -606,8 +608,10 @@ input.error {
   background-color: transparent;
   border: 1px solid var(--light-gray-color);
   border-radius: 34px; }
-.slider-versin-two.slider-versin-two .slider-wrap::after {
-  display: none; }
+.slider-versin-two.slider-versin-two .slider-wrap {
+  min-height: 0; }
+  .slider-versin-two.slider-versin-two .slider-wrap::after {
+    display: none; }
 
 .btn.btn.btn.btn {
   border-radius: 25px;
