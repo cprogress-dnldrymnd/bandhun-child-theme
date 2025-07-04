@@ -934,7 +934,9 @@ input.error {
 
 .slider-versin-two.slider-versin-two {
   .slider-content {
+    position: static;
     width: 85%;
+    transform: none;
     h1 {
       text-align: left;
       color: var(--e-global-color-text);

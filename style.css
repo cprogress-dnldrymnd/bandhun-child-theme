@@ -581,7 +581,9 @@ input.error {
   padding: 15px 4vw !important; }
 
 .slider-versin-two.slider-versin-two .slider-content {
-  width: 85%; }
+  position: static;
+  width: 85%;
+  transform: none; }
   .slider-versin-two.slider-versin-two .slider-content h1 {
     text-align: left;
     color: var(--e-global-color-text);
