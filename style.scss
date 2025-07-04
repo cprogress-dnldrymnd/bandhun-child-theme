@@ -839,7 +839,7 @@ input.error {
 /*new design*/
 :root {
   --light-color: #fffdf4;
-  --border-color: #C9C9C9;
+  --light-gray-color: #C9C9C9;
 }
 
 .header-version-one.header-version-one {
@@ -870,7 +870,7 @@ input.error {
   }
   .weddingdir-dropdown-handler {
     border-radius: 34px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--light-gray-color);
     .before-input-box {
       background-color: transparent;
     }

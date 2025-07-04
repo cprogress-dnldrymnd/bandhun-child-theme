@@ -519,7 +519,7 @@ input.error {
 /*new design*/
 :root {
   --light-color: #fffdf4;
-  --border-color: #C9C9C9; }
+  --light-gray-color: #C9C9C9; }
 
 .header-version-one.header-version-one .navbar {
   background-color: var(--light-color);
@@ -539,7 +539,7 @@ input.error {
   color: var(--e-global-color-text); }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler {
   border-radius: 34px;
-  border: 1px solid var(--border-color); }
+  border: 1px solid var(--light-gray-color); }
   .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .before-input-box {
     background-color: transparent; }
   .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .form-light.form-control {
