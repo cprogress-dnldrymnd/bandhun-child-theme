@@ -583,7 +583,17 @@ input.error {
 .slider-versin-two.slider-versin-two .slider-content h1 {
   text-align: left;
   color: var(--e-global-color-text);
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 62px; }
+  @media (max-width: 1199px) {
+    .slider-versin-two.slider-versin-two .slider-content h1 {
+      font-size: 52px; } }
+  @media (max-width: 991px) {
+    .slider-versin-two.slider-versin-two .slider-content h1 {
+      font-size: 42px; } }
+  @media (max-width: 767px) {
+    .slider-versin-two.slider-versin-two .slider-content h1 {
+      font-size: 32px; } }
 .slider-versin-two.slider-versin-two .slider-content .lead {
   display: none;
   color: var(--e-global-color-text); }

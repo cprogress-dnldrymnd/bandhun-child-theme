@@ -938,6 +938,16 @@ input.error {
       text-align: left;
       color: var(--e-global-color-text);
       margin-bottom: 30px;
+      font-size: 62px;
+      @media (max-width: 1199px) {
+        font-size: 52px;
+      }
+      @media (max-width: 991px) {
+        font-size: 42px;
+      }
+      @media (max-width: 767px) {
+        font-size: 32px;
+      }
     }
     .lead {
       display: none;
