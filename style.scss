@@ -283,15 +283,6 @@ header {
   }
 }
 
-body {
-  &.logged-in {
-    header {
-      .navbar-nav {
-        margin-left: auto !important;
-      }
-    }
-  }
-}
 
 #weddingdir_vendor_login_model_popup,
 #weddingdir_couple_login_model_popup {
@@ -931,6 +922,8 @@ input.error {
     padding-bottom: 22px;
     .navbar-nav .nav-link {
       padding: 10px;
+      font-size: 18px;
+      font-weight: 500;
     }
   }
   .container {
