@@ -1017,4 +1017,13 @@ body {
   background-color: var(--e-global-color-accent);
   border-radius: 50%;
   justify-content: center;
+  span {
+    width: 20px;
+    height: 20px;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+    justify-content: center;
+  }
 }

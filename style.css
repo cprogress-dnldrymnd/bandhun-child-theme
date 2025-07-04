@@ -645,5 +645,12 @@ body {
   background-color: var(--e-global-color-accent);
   border-radius: 50%;
   justify-content: center; }
+  .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title > span span {
+    width: 20px;
+    height: 20px;
+    justify-content: center; }
+    .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title > span span svg {
+      width: 20px;
+      height: 20px; }
 
 /*# sourceMappingURL=style.css.map */
