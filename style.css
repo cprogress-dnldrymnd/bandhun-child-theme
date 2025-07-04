@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  *   Theme Name:    WeddingDir Child Theme
  *   Theme URI:     https://weddingdir.net/
@@ -17,6 +18,53 @@
  *   Theme customization starts here
  *   -------------------------------
  */
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * Sofia Pro:
+ *   - http://typekit.com/eulas/00000000000000007735f999
+ *   - http://typekit.com/eulas/00000000000000007735f993
+ *   - http://typekit.com/eulas/00000000000000007735f98d
+ *   - http://typekit.com/eulas/00000000000000007735f98c
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2025-07-04 12:11:11 UTC"}*/
+@import url("https://p.typekit.net/p.css?s=1&k=igs6tis&ht=tk&f=24539.24540.24547.24548&a=157205128&app=typekit&e=css");
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("https://use.typekit.net/af/2ff9be/00000000000000007735f999/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/2ff9be/00000000000000007735f999/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/2ff9be/00000000000000007735f999/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("https://use.typekit.net/af/fb921b/00000000000000007735f993/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/fb921b/00000000000000007735f993/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/fb921b/00000000000000007735f993/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("https://use.typekit.net/af/1fbf9b/00000000000000007735f98d/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/1fbf9b/00000000000000007735f98d/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/1fbf9b/00000000000000007735f98d/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal; }
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("https://use.typekit.net/af/a80b27/00000000000000007735f98c/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/a80b27/00000000000000007735f98c/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/a80b27/00000000000000007735f98c/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal; }
+.tk-Sofia Pro {
+  font-family: "Sofia Pro", sans-serif; }
+
 :root {
   --gold-color: #d7b740;
   --white-color: #fff;
