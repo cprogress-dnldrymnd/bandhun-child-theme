@@ -965,8 +965,8 @@ input.error {
     .form-light.form-control {
       padding: 10px 22px;
       background-color: transparent;
-      border: 1px solid var(--light-gray-color);
-      border-radius: 34px;
+      border: 1px solid var(--light-gray-color) !important;
+      border-radius: 34px !important;
     }
   }
   .slider-wrap {

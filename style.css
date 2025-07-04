@@ -606,8 +606,8 @@ input.error {
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .form-light.form-control {
   padding: 10px 22px;
   background-color: transparent;
-  border: 1px solid var(--light-gray-color);
-  border-radius: 34px; }
+  border: 1px solid var(--light-gray-color) !important;
+  border-radius: 34px !important; }
 .slider-versin-two.slider-versin-two .slider-wrap {
   min-height: 0; }
   .slider-versin-two.slider-versin-two .slider-wrap::after {
