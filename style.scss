@@ -1050,6 +1050,11 @@ footer .footer-section.footer-section {
       max-width: 100%;
     }
   }
+  .mc4wp-form-fields {
+    .mb-3 {
+      flex-grow: 1;
+    }
+  }
   .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
@@ -1057,8 +1062,7 @@ footer .footer-section.footer-section {
   }
   .mr-top-footer{
     .weddingdir-footer-block {
-      display: none;
-    }
+      width: 100%;
   }
 }
 
