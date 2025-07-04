@@ -672,6 +672,7 @@ footer .footer-section.footer-section {
 .form-light.form-light.form-control {
   padding: 10px 22px;
   background-color: transparent;
-  border-radius: 34px; }
+  border-radius: 34px;
+  border: 1px solid var(--light-gray-color); }
 
 /*# sourceMappingURL=style.css.map */
