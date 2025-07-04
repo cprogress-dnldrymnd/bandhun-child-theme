@@ -709,14 +709,14 @@ body {
         .fa {
           &:after {
             content: "Change";
-            font-family: 'Nunito', sans-serif;
+            font-family: "Nunito", sans-serif;
             margin-left: 5px;
           }
         }
       }
       .weddingdir-share-post-model {
-        background-color: #716D6C;
-        border-color: #716D6C;
+        background-color: #716d6c;
+        border-color: #716d6c;
         color: var(--white-color);
       }
     }
@@ -759,5 +759,92 @@ body {
         }
       }
     }
+  }
+}
+
+.woocommerce form .form-row label {
+  float: none !important;
+}
+
+.custom-file-featured {
+  padding: 10%;
+}
+
+.position-relative {
+  position: relative;
+}
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.ribbon span {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 20px;
+  transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #e74c3c;
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+
+/*header-changes*/
+header .navbar-nav .nav-link {
+  font-weight: 400 !important;
+}
+
+header .navbar-nav .menu-item {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+@media (min-width: 1200px) {
+  header .navbar-collapse {
+    position: relative;
+  }
+  header .navbar-nav .user-profile {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+  }
+}
+
+/* register error massage */
+
+.error-message {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  display: block;
+  margin-top: 0;
+  text-align: start;
+  font-weight: bold;
+}
+
+input.error {
+  border-color: #ff0000;
+}
+/*new design*/
+:root {
+  --light-color: #fffdf4;
+}
+
+.header-version-one {
+  background-color: var(--light-color);
+  .container {
+    background-color: var(--white-color);
+    border-radius: 51px;
   }
 }

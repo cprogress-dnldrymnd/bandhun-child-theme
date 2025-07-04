@@ -79,9 +79,9 @@ header .navbar-collapse {
 header .button-box a {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
-  font-size: 13px; }
+  font-size: 16px; }
   header .button-box a:not(:last-child) {
-    margin-right: 0rem; }
+    margin-right: 1.25rem; }
 @media (min-width: 1500px) {
   header .container,
   header .container-fluid {
@@ -113,8 +113,8 @@ header .button-box a {
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #e2005e; }
 
-/*body.logged-in header .navbar-nav {*/
-/*  margin-left: auto !important; }*/
+body.logged-in header .navbar-nav {
+  margin-left: auto !important; }
 
 @media (min-width: 992px) {
   #weddingdir_vendor_login_model_popup .modal-dialog,
@@ -422,11 +422,11 @@ body.user-is-logged-in .not-logged-in-only {
     text-align: center; }
     .page-template-couple-dashboard .couple-img-wrap .couple-btn #button_id_couple_dashboard_image .fa:after {
       content: "Change";
-      font-family: 'Nunito', sans-serif;
+      font-family: "Nunito", sans-serif;
       margin-left: 5px; }
     .page-template-couple-dashboard .couple-img-wrap .couple-btn .weddingdir-share-post-model {
-      background-color: #716D6C;
-      border-color: #716D6C;
+      background-color: #716d6c;
+      border-color: #716d6c;
       color: var(--white-color); }
   .page-template-couple-dashboard .sidebar-nav.sidebar-nav ul {
     display: flex;
@@ -452,83 +452,78 @@ body.user-is-logged-in .not-logged-in-only {
     .page-template-couple-dashboard .sidebar-nav.sidebar-nav ul li:nth-child(6) {
       display: none !important; }
 
-/*# sourceMappingURL=style.css.map */
 .woocommerce form .form-row label {
- float: none !important;
-}
+  float: none !important; }
 
 .custom-file-featured {
-  padding: 10%;
-}
+  padding: 10%; }
 
- .position-relative {
-        position: relative;
-    }
-    .ribbon {
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        z-index: 1;
-        overflow: hidden;
-        width: 75px;
-        height: 75px;
-        text-align: center;
-    }
-    .ribbon span {
-        font-size: 12px;
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: bold;
-        line-height: 20px;
-        transform: rotate(45deg);
-        width: 100px;
-        display: block;
-        background: #e74c3c;
-        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
-        position: absolute;
-        top: 19px;
-        right: -21px;
-    }
+.position-relative {
+  position: relative; }
 
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: center; }
+
+.ribbon span {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 20px;
+  transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #e74c3c;
+  box-shadow: 0 3px 10px -5px black;
+  position: absolute;
+  top: 19px;
+  right: -21px; }
 
 /*header-changes*/
 header .navbar-nav .nav-link {
-	font-weight: 400 !important;
-}
+  font-weight: 400 !important; }
 
 header .navbar-nav .menu-item {
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
-}
+  margin-left: 1rem !important;
+  margin-right: 1rem !important; }
 
-@media(min-width: 1200px) {
-	header .navbar-collapse {
-		position: relative;
-	}
-	header .navbar-nav .user-profile {
-		position: absolute;
+@media (min-width: 1200px) {
+  header .navbar-collapse {
+    position: relative; }
+
+  header .navbar-nav .user-profile {
+    position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-		z-index: 99;
-	}
-}
-
-
-
-
+    z-index: 99; } }
 /* register error massage */
-
-
 .error-message {
-  color: rgb(255, 0, 0);
+  color: red;
   font-size: 12px;
   display: block;
   margin-top: 0;
   text-align: start;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 input.error {
-  border-color: #ff0000;
-}
+  border-color: #ff0000; }
+
+/*new design*/
+:root {
+  --light-color: #fffdf4; }
+
+.header-version-one {
+  background-color: var(--light-color); }
+  .header-version-one .container {
+    background-color: var(--white-color);
+    border-radius: 51px; }
+
+/*# sourceMappingURL=style.css.map */
