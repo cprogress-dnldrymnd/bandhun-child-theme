@@ -1786,3 +1786,20 @@ function custom_dynamic_title($title) {
     return $title;
 }
 add_filter('document_title_parts', 'custom_dynamic_title');
+
+
+/*Elementor Queries*/
+
+function featured_listing( $query ) {
+
+	// Append our meta query
+	$meta_query[] = [
+		'key' => 'project_type',
+		'value' => [ 'design', 'development' ],
+		'compare' => 'in',
+	];
+
+	$query->set( 'meta_query', $meta_query );
+
+}
+add_action( 'elementor/query/featured_listing', 'action_v' );
