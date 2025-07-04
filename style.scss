@@ -912,7 +912,6 @@ input.error {
 :root {
   --light-color: #fffdf4;
   --light-gray-color: #c9c9c9;
-
 }
 
 .header-version-one.header-version-one {
@@ -981,11 +980,9 @@ input.error {
   strong {
     font-weight: 500;
   }
-  &.btn-default {
-    background-color: var(--e-global-color-accent);
-    color: var(--e-global-color-text); 
-    border-color: var(--e-global-color-accent);
-  }
+  background-color: var(--e-global-color-accent);
+  color: var(--e-global-color-text);
+  border-color: var(--e-global-color-accent);
 }
 
 h1,

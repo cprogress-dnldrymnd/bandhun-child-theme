@@ -611,13 +611,12 @@ input.error {
 
 .btn.btn.btn.btn {
   border-radius: 25px;
-  font-weight: 500; }
+  font-weight: 500;
+  background-color: var(--e-global-color-accent);
+  color: var(--e-global-color-text);
+  border-color: var(--e-global-color-accent); }
   .btn.btn.btn.btn strong {
     font-weight: 500; }
-  .btn.btn.btn.btn.btn-default {
-    background-color: var(--e-global-color-accent);
-    color: var(--e-global-color-text);
-    border-color: var(--e-global-color-accent); }
 
 h1,
 h2,
