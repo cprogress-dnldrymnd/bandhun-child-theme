@@ -848,12 +848,24 @@ input.error {
     padding-bottom: 22px;
     .navbar-nav .nav-link {
       padding: 10px;
-
     }
   }
   .container {
     background-color: var(--white-color);
     border-radius: 51px;
     padding: 15px 4vw !important;
+  }
+}
+
+.slider-versin-two.slider-versin-two {
+  .slider-content {
+    h1 {
+      text-align: left;
+    }
+  }
+  .slider-wrap {
+    &::after {
+      display: none;
+    }
   }
 }

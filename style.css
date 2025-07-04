@@ -531,4 +531,9 @@ input.error {
   border-radius: 51px;
   padding: 15px 4vw !important; }
 
+.slider-versin-two.slider-versin-two .slider-content h1 {
+  text-align: left; }
+.slider-versin-two.slider-versin-two .slider-wrap::after {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */
