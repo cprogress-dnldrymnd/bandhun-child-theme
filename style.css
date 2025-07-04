@@ -541,8 +541,9 @@ input.error {
   border-radius: 34px;
   border: 1px solid var(--light-gray-color); }
   .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .before-input-box {
-    background-color: transparent; }
+    display: none !important; }
   .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .form-light.form-control {
+    padding: 10px 22px;
     background-color: transparent; }
 .slider-versin-two.slider-versin-two .slider-wrap::after {
   display: none; }

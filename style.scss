@@ -872,9 +872,10 @@ input.error {
     border-radius: 34px;
     border: 1px solid var(--light-gray-color);
     .before-input-box {
-      background-color: transparent;
+      display: none !important;
     }
     .form-light.form-control {
+      padding: 10px 22px;
       background-color: transparent;
     }
   }
