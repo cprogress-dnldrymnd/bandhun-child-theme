@@ -912,7 +912,7 @@ input.error {
 :root {
   --light-color: #fffdf4;
   --light-gray-color: #c9c9c9;
-  --accent-color: #f3d1c8;
+
 }
 
 .header-version-one.header-version-one {
@@ -978,10 +978,13 @@ input.error {
 .btn.btn.btn.btn {
   border-radius: 25px;
   font-weight: 500;
+  strong {
+    font-weight: 500;
+  }
   &.btn-default {
-    background-color: var(--accent-color);
-    color: var(--e-global-color-text);
-    border-color: var(--accent-color);
+    background-color: var(--e-global-color-accent);
+    color: var(--e-global-color-text); 
+    border-color: var(--e-global-color-accent);
   }
 }
 

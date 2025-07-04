@@ -565,8 +565,7 @@ input.error {
 /*new design*/
 :root {
   --light-color: #fffdf4;
-  --light-gray-color: #c9c9c9;
-  --accent-color: #f3d1c8; }
+  --light-gray-color: #c9c9c9; }
 
 .header-version-one.header-version-one .navbar {
   background-color: var(--light-color);
@@ -613,10 +612,12 @@ input.error {
 .btn.btn.btn.btn {
   border-radius: 25px;
   font-weight: 500; }
+  .btn.btn.btn.btn strong {
+    font-weight: 500; }
   .btn.btn.btn.btn.btn-default {
-    background-color: var(--accent-color);
+    background-color: var(--e-global-color-accent);
     color: var(--e-global-color-text);
-    border-color: var(--accent-color); }
+    border-color: var(--e-global-color-accent); }
 
 h1,
 h2,
