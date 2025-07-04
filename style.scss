@@ -959,14 +959,14 @@ input.error {
     }
   }
   .weddingdir-dropdown-handler {
-    border-radius: 34px;
-    border: 1px solid var(--light-gray-color);
     .before-input-box {
       display: none !important;
     }
     .form-light.form-control {
       padding: 10px 22px;
       background-color: transparent;
+      border: 1px solid var(--light-gray-color);
+      border-radius: 34px;
     }
   }
   .slider-wrap {
@@ -1052,4 +1052,10 @@ footer .footer-section.footer-section {
 
 .container.container {
   max-width: 1740px;
+}
+
+.form-light.form-light.form-control {
+  padding: 10px 22px;
+  background-color: transparent;
+  border-radius: 34px;
 }
