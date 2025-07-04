@@ -861,7 +861,10 @@ input.error {
   .slider-content {
     h1 {
       text-align: left;
-      color: ;
+      color: var(--e-global-color-text);
+    }
+    .lead {
+      color: var(--e-global-color-text);
     }
   }
   .slider-wrap {
