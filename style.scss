@@ -867,6 +867,14 @@ input.error {
       color: var(--e-global-color-text);
     }
   }
+  .weddingdir-dropdown-handler {
+    .before-input-box {
+      background-color: transparent;
+    }
+    .form-light.form-control {
+      background-color: transparent;
+    }
+  }
   .slider-wrap {
     &::after {
       display: none;
