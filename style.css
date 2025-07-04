@@ -669,7 +669,7 @@ footer .footer-section.footer-section {
   footer .footer-section.footer-section .mc4wp-form-fields .mb-3 {
     flex-grow: 1; }
   footer .footer-section.footer-section .mr-top-footer > div > div {
-    width: 100 !important; }
+    width: 100% !important; }
   footer .footer-section.footer-section .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
