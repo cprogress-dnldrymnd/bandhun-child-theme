@@ -520,10 +520,10 @@ input.error {
 :root {
   --light-color: #fffdf4; }
 
-.header-version-one {
+.header-version-one .navbar {
   background-color: var(--light-color); }
-  .header-version-one .container {
-    background-color: var(--white-color);
-    border-radius: 51px; }
+.header-version-one .container {
+  background-color: var(--white-color);
+  border-radius: 51px; }
 
 /*# sourceMappingURL=style.css.map */

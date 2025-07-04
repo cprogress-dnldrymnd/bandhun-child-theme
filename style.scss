@@ -842,7 +842,9 @@ input.error {
 }
 
 .header-version-one {
-  background-color: var(--light-color);
+  .navbar {
+    background-color: var(--light-color);
+  }
   .container {
     background-color: var(--white-color);
     border-radius: 51px;
