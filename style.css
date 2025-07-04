@@ -177,7 +177,8 @@ header .button-box a {
 
 .top-bar-stripe {
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  display: none !important; }
   .top-bar-stripe i {
     display: none !important; }
   .top-bar-stripe .row > [class*="col-"] {
@@ -624,8 +625,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Georgia", serif;
-  font-weight: 400 !important; }
+  font-family: "Georgia", serif; }
 
 body {
   font-family: "Sofia Pro", sans-serif; }
@@ -636,5 +636,7 @@ body {
 
   h2 {
     font-size: 48px; } }
+.top-bar-stripe {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

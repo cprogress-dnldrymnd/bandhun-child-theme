@@ -311,6 +311,7 @@ header {
 .top-bar-stripe {
   padding-top: 10px;
   padding-bottom: 10px;
+    display: none !important;
 
   i {
     display: none !important;
@@ -991,7 +992,6 @@ h4,
 h5,
 h6 {
   font-family: "Georgia", serif;
-  font-weight: 400 !important;
 }
 
 body {
@@ -1005,4 +1005,8 @@ body {
   h2 {
     font-size: 48px;
   }
+}
+
+.top-bar-stripe {
+  display: none !important;
 }
