@@ -938,8 +938,10 @@ input.error {
     h1 {
       text-align: left;
       color: var(--e-global-color-text);
+      margin-bottom: 30px;
     }
     .lead {
+      display: none;
       color: var(--e-global-color-text);
     }
     .slider-form > .row {
