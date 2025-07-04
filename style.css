@@ -559,4 +559,12 @@ input.error {
     color: var(--e-global-color-text);
     border-color: var(--accent-color); }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia", serif; }
+
 /*# sourceMappingURL=style.css.map */
