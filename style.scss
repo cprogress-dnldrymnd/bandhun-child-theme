@@ -894,5 +894,6 @@ input.error {
   &.btn-default {
     background-color: var(--accent-color);
     color: var(--e-global-color-text);
+    border-color: var(--accent-color);;
   }
 }

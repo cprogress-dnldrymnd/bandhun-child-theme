@@ -555,6 +555,7 @@ input.error {
   border-radius: 25px; }
   .btn.btn.btn.btn.btn-default {
     background-color: var(--accent-color);
-    color: var(--e-global-color-text); }
+    color: var(--e-global-color-text);
+    border-color: var(--accent-color); }
 
 /*# sourceMappingURL=style.css.map */
