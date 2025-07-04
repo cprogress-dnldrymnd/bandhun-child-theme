@@ -959,6 +959,9 @@ input.error {
     }
     .slider-form > .row {
       gap: 0 !important;
+      @media (max-width: 767px) {
+        gap: 10px !important;
+      }
     }
   }
   .weddingdir-dropdown-handler {

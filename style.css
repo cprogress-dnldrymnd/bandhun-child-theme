@@ -604,6 +604,9 @@ input.error {
     color: var(--e-global-color-text); }
   .slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
     gap: 0 !important; }
+    @media (max-width: 767px) {
+      .slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
+        gap: 10px !important; } }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .before-input-box {
   display: none !important; }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler .form-light.form-control {
