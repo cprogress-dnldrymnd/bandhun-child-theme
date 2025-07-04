@@ -551,9 +551,9 @@ input.error {
 .slider-versin-two.slider-versin-two .slider-wrap::after {
   display: none; }
 
-.btn.btn {
+.btn.btn.btn.btn {
   border-radius: 25px; }
-  .btn.btn.btn-default {
+  .btn.btn.btn.btn.btn-default {
     background-color: var(--accent-color);
     color: var(--e-global-color-text); }
 
