@@ -637,6 +637,6 @@ body {
   h2 {
     font-size: 48px; } }
 .top-bar-stripe {
-  display: none; }
+  display: none !important; }
 
 /*# sourceMappingURL=style.css.map */
