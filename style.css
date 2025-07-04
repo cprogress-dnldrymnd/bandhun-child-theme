@@ -663,11 +663,14 @@ footer .footer-section.footer-section {
     font-family: "Georgia", Sans-serif; }
   footer .footer-section.footer-section .footer-widget p {
     font-weight: 400;
-    color: var(--e-global-color-text); }
+    color: var(--e-global-color-text);
+    max-width: 100%; }
   footer .footer-section.footer-section .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
     padding: 100px 6vw; }
+  footer .footer-section.footer-section .col-lg-6 .weddingdir-footer-block {
+    display: none; }
 
 .container.container {
   max-width: 1740px; }
