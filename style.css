@@ -688,5 +688,7 @@ footer .footer-section.footer-section {
   background-color: transparent;
   color: var(--e-global-color-text);
   font-size: inherit; }
+  .copyrights a {
+    color: var(--e-global-color-text); }
 
 /*# sourceMappingURL=style.css.map */

@@ -1083,4 +1083,7 @@ footer .footer-section.footer-section {
   background-color: transparent;
   color: var(--e-global-color-text);
   font-size: inherit;
+  a {
+    color: var(--e-global-color-text);
+  }
 }
