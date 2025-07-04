@@ -665,4 +665,7 @@ footer .footer-section {
     border-radius: 43px;
     padding: 100px 6vw; }
 
+.container.container {
+  max-width: 1740px; }
+
 /*# sourceMappingURL=style.css.map */
