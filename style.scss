@@ -1087,3 +1087,13 @@ footer .footer-section.footer-section {
     color: var(--e-global-color-text);
   }
 }
+
+.elementor-swiper-button.elementor-swiper-button {
+  width: 52px;
+  height: 52px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
