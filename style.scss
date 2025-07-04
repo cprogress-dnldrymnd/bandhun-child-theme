@@ -839,7 +839,8 @@ input.error {
 /*new design*/
 :root {
   --light-color: #fffdf4;
-  --light-gray-color: #C9C9C9;
+  --light-gray-color: #c9c9c9;
+  --accent-color: #f3d1c8;
 }
 
 .header-version-one.header-version-one {
@@ -867,6 +868,9 @@ input.error {
     .lead {
       color: var(--e-global-color-text);
     }
+    .slider-form > .row {
+      gap: 0;
+    }
   }
   .weddingdir-dropdown-handler {
     border-radius: 34px;
@@ -883,5 +887,12 @@ input.error {
     &::after {
       display: none;
     }
+  }
+}
+.btn.btn {
+  border-radius: 25px;
+  &.btn-default {
+    background-color: var(--accent-color);
+    color: var(--e-global-color-text);
   }
 }

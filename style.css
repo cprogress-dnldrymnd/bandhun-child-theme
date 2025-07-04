@@ -519,7 +519,8 @@ input.error {
 /*new design*/
 :root {
   --light-color: #fffdf4;
-  --light-gray-color: #C9C9C9; }
+  --light-gray-color: #c9c9c9;
+  --accent-color: #f3d1c8; }
 
 .header-version-one.header-version-one .navbar {
   background-color: var(--light-color);
@@ -537,6 +538,8 @@ input.error {
   color: var(--e-global-color-text); }
 .slider-versin-two.slider-versin-two .slider-content .lead {
   color: var(--e-global-color-text); }
+.slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
+  gap: 0; }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler {
   border-radius: 34px;
   border: 1px solid var(--light-gray-color); }
@@ -547,5 +550,11 @@ input.error {
     background-color: transparent; }
 .slider-versin-two.slider-versin-two .slider-wrap::after {
   display: none; }
+
+.btn.btn {
+  border-radius: 25px; }
+  .btn.btn.btn-default {
+    background-color: var(--accent-color);
+    color: var(--e-global-color-text); }
 
 /*# sourceMappingURL=style.css.map */
