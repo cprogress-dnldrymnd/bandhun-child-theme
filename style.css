@@ -662,6 +662,7 @@ footer .footer-section {
     color: var(--e-global-color-text); }
   footer .footer-section .container {
     background-color: var(--e-global-color-f8f15ab);
-    border-radius: 43px; }
+    border-radius: 43px;
+    padding: 100px 6vw; }
 
 /*# sourceMappingURL=style.css.map */
