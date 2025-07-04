@@ -943,7 +943,7 @@ input.error {
       color: var(--e-global-color-text);
     }
     .slider-form > .row {
-      gap: 0;
+      gap: 0 !important;
     }
   }
   .weddingdir-dropdown-handler {

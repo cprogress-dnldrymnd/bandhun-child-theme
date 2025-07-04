@@ -586,7 +586,7 @@ input.error {
 .slider-versin-two.slider-versin-two .slider-content .lead {
   color: var(--e-global-color-text); }
 .slider-versin-two.slider-versin-two .slider-content .slider-form > .row {
-  gap: 0; }
+  gap: 0 !important; }
 .slider-versin-two.slider-versin-two .weddingdir-dropdown-handler {
   border-radius: 34px;
   border: 1px solid var(--light-gray-color); }
