@@ -1028,15 +1028,16 @@ body {
   }
 }
 
-footer .footer-section {
+footer .footer-section.footer-section {
   background-color: transparent;
   .widget-title {
     color: var(--e-global-color-text);
     font-size: 27px;
   }
-  .footer .footer-widget ul {
+  .footer-widget ul {
     li {
       a {
+        font-size: 27px;
         color: var(--e-global-color-text);
       }
     }
