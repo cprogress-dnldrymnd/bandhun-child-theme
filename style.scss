@@ -1,0 +1,763 @@
+/**
+ *   Theme Name:    WeddingDir Child Theme
+ *   Theme URI:     https://weddingdir.net/
+ *   Author:        wp-organic
+ *   Author URI:    https://wporganic.com/
+ *   Description:   WeddingDir Child Theme
+ *   Version:       1.0.2
+ *   License:       GNU General Public License v2 or later
+ *   License URI:   https://www.gnu.org/licenses/gpl-2.0.html
+ *   Tested up to:  5.6
+ *   Requires PHP:  7.0
+ *   Template:      weddingdir
+ *   Text Domain:   weddingdir
+ *   Tags:          two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ *   
+ *   -------------------------------
+ *   Theme customization starts here
+ *   -------------------------------
+ */
+:root {
+  --gold-color: #d7b740;
+  --white-color: #fff;
+  --pink-color: #e31f71;
+}
+
+.wedding-listing {
+  .img {
+    .img-content {
+      .bottom {
+        .tagss {
+          background-color: var(--gold-color);
+          color: var(--white-color);
+        }
+      }
+
+      .top {
+        .price {
+          i {
+            background-color: var(--gold-color);
+            color: var(--white-color);
+          }
+        }
+
+        span.featured {
+          background-color: var(--gold-color);
+          color: var(--white-color);
+
+          i {
+            background-color: var(--white-color);
+            color: var(--gold-color);
+          }
+        }
+
+        span.professional.featured {
+          background-color: var(--pink-color);
+          color: var(--white-color);
+
+          i {
+            background: var(--white-color);
+            color: var(--pink-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+.result-list.result-list {
+  .img {
+    span.featured {
+      &:not(.spotlight) {
+        background-color: var(--gold-color);
+        color: var(--white-color);
+
+        i {
+          background-color: var(--white-color);
+          color: var(--gold-color);
+        }
+      }
+    }
+
+    span.professional.featured {
+      background-color: var(--pink-color);
+      color: var(--white-color);
+
+      i {
+        background: var(--white-color);
+        color: var(--pink-color);
+      }
+    }
+  }
+
+  .content {
+    .bottom {
+      .badge-wrap {
+        .price-map {
+          i {
+            background-color: var(--gold-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-secondary {
+  background-color: var(--gold-color);
+  border-color: var(--gold-color);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #f7d248;
+    border-color: #f7d248;
+  }
+}
+
+.post-content {
+  .post-category a {
+    background-color: var(--gold-color);
+  }
+}
+
+.real-wedding {
+  .img {
+    .date {
+      background-color: var(--gold-color);
+    }
+  }
+}
+
+header {
+  .order-lg-last {
+    a[data-bs-target="#weddingdir_couple_registration_model_popup"] {
+      display: none !important;
+    }
+  }
+
+  .navbar-nav {
+    margin-left: 2rem !important;
+    margin-right: 2rem;
+  }
+
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+
+  .button-box {
+    a {
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
+      font-size: 16px;
+
+      &:not(:last-child) {
+        margin-right: 1.25rem;
+      }
+    }
+  }
+
+  .container,
+  .container-fluid {
+    @media (min-width: 1500px) {
+      max-width: 1420px;
+    }
+
+    @media (min-width: 1600px) {
+      max-width: 1520px;
+    }
+
+    @media (min-width: 1700px) {
+      max-width: 1620px;
+    }
+  }
+}
+.page-template-search-listing {
+  .listing-content {
+    > div {
+      margin-left: auto;
+      margin-right: auto;
+      @media (min-width: 1500px) {
+        max-width: 1420px;
+      }
+
+      @media (min-width: 1600px) {
+        max-width: 1520px;
+      }
+
+      @media (min-width: 1700px) {
+        max-width: 1620px;
+      }
+    }
+  }
+}
+
+.btn-primary {
+  border: none !important;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #e2005e;
+  }
+}
+
+body {
+  &.logged-in {
+    header {
+      .navbar-nav {
+        margin-left: auto !important;
+      }
+    }
+  }
+}
+
+#weddingdir_vendor_login_model_popup,
+#weddingdir_couple_login_model_popup {
+  .modal-dialog {
+    @media (min-width: 992px) {
+      max-width: 800px;
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 1140px;
+    }
+  }
+}
+
+.owl-carousel.owl-carousel {
+  .owl-dot {
+    opacity: 1;
+
+    &.active {
+      span {
+        background-color: var(--gold-color);
+      }
+    }
+  }
+}
+
+.top-bar-stripe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  i {
+    display: none !important;
+  }
+
+  .row > [class*="col-"] {
+    width: 100%;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .col-lg-3 {
+    display: none;
+  }
+}
+
+.popular-locations:hover {
+  .overlay-box {
+    background-color: rgba(227, 31, 113, 0.9);
+  }
+}
+
+.map-tabbing.theme-tabbing.nav-pills {
+  .nav-link.active {
+    border: 2px solid var(--pink-color);
+    color: var(--pink-color);
+  }
+}
+
+.header-amenities.header-amenities {
+  .fa-dollar {
+    background-color: var(--gold-color);
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="%23fff" d="M112 160.4c0-35.5 28.8-64.4 64.4-64.4c6.9 0 13.8 1.1 20.4 3.3l81.2 27.1c16.8 5.6 34.9-3.5 40.5-20.2s-3.5-34.9-20.2-40.5L217 38.6c-13.1-4.4-26.8-6.6-40.6-6.6C105.5 32 48 89.5 48 160.4V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H48v44.5c0 17.4-4.7 34.5-13.7 49.4L4.6 431.5c-5.9 9.9-6.1 22.2-.4 32.2S20.5 480 32 480H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H88.5l.7-1.1C104.1 390 112 361.5 112 332.5V288H224c17.7 0 32-14.3 32-32s-14.3-32-32-32H112V160.4z"/></svg>');
+    background-size: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &::before {
+      content: none;
+    }
+  }
+}
+
+.profile-single {
+  .reviews {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .header-amenities {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background-color: var(--pink-color);
+    }
+  }
+}
+
+.review-count {
+  background-color: var(--pink-color);
+}
+
+.review-option {
+  .count {
+  }
+
+  .icon {
+    i.fa-dollar {
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill="%23e31f71" d="M112 160.4c0-35.5 28.8-64.4 64.4-64.4c6.9 0 13.8 1.1 20.4 3.3l81.2 27.1c16.8 5.6 34.9-3.5 40.5-20.2s-3.5-34.9-20.2-40.5L217 38.6c-13.1-4.4-26.8-6.6-40.6-6.6C105.5 32 48 89.5 48 160.4V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H48v44.5c0 17.4-4.7 34.5-13.7 49.4L4.6 431.5c-5.9 9.9-6.1 22.2-.4 32.2S20.5 480 32 480H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H88.5l.7-1.1C104.1 390 112 361.5 112 332.5V288H224c17.7 0 32-14.3 32-32s-14.3-32-32-32H112V160.4z"/></svg>');
+      background-size: contain;
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 24px;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+}
+
+.date-choose-collapse {
+  .btn-link-primary {
+    color: var(--gold-color);
+  }
+}
+
+.form-text.form-text {
+  .txt-orange {
+    color: var(--gold-color);
+  }
+}
+
+.slider-content.slider-content {
+  .col-xl-8 {
+    width: 100%;
+  }
+
+  .slider-form {
+    background-color: transparent !important;
+
+    > .row {
+      flex-wrap: nowrap;
+      --bs-gutter-x: 10px !important;
+
+      > div {
+        border: none !important;
+
+        @media (min-width: 768px) {
+          width: 25%;
+        }
+      }
+    }
+  }
+}
+
+.etimated-cost.etimated-cost {
+  .icon {
+    display: none;
+  }
+
+  .cost-price.final {
+    color: var(--pink-color);
+  }
+}
+
+.dashboard-body {
+  .card-shadow {
+    &.Wedding.details,
+    &.RSVP.Pending {
+      display: none;
+    }
+  }
+}
+
+.empty-guest-list.empty-guest-list {
+  i {
+    display: none;
+  }
+}
+
+.dash-categories.dash-categories {
+  background-color: #ffe8f2;
+
+  .head {
+    i {
+      color: var(--pink-color);
+    }
+  }
+}
+
+.wedding-detail-wrap .wedding-details-items .edit .edit-click,
+.wedding-detail-wrap .wedding-details-items .btn {
+  background-color: #ffe8f1 !important;
+
+  i {
+    color: var(--pink-color);
+  }
+}
+
+.couple-avatar.couple-avatar img {
+  border: 2px solid;
+}
+
+.couple-info.couple-info {
+  padding-left: 50px;
+
+  .row-cols-md-2 > * {
+    .couple-status-item .counter {
+      color: #000;
+      font-weight: 400;
+    }
+
+    .couple-status-item .text small {
+      color: #000;
+      font-weight: 400;
+    }
+
+    @media (min-width: 1200px) {
+      width: 33.3333333%;
+    }
+  }
+}
+
+#sidebar-filter {
+  z-index: 999999;
+  .col-12 {
+    border-bottom: 1px solid #e5e5e5;
+
+    .filter-widget-layout-two {
+      margin-top: 0 !important;
+      display: block !important;
+      height: auto;
+    }
+  }
+
+  .offcanvas-title {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .close-filter {
+    cursor: pointer;
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .listing-filter-section {
+    margin-bottom: 0 !important;
+
+    .listing-filter-data {
+      border: none;
+      padding-left: 30px;
+    }
+
+    .head {
+      position: relative;
+      padding: 30px 1rem 30px 40px;
+
+      .toggle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+
+        &[href="#active-filters"] {
+          right: auto;
+        }
+
+        i {
+          transform: rotate(-90deg);
+          background-color: transparent;
+          color: #000;
+          padding: 0;
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+
+    .collapse {
+      padding-bottom: 30px;
+    }
+  }
+
+  .listing-filter-section .head .toggle.collapsed i {
+    transform: rotate(0deg);
+  }
+
+  &.show-filter {
+    transform: translateX(0);
+  }
+}
+
+.filter-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: 500ms;
+
+  &.filter-backdrop-active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.listing-content.listing-content,
+.tax-listing-category .col-lg-7.col-md-12.col-sm-12.col-12 {
+  width: 100%;
+  height: auto;
+}
+
+.tax-listing-category {
+  #listing-layout-one {
+    .row {
+      .col {
+        @media (min-width: 992px) {
+          width: 33.33333333%;
+        }
+      }
+    }
+  }
+}
+
+#map_handler {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  z-index: 99999;
+  max-width: 700px;
+  width: 100%;
+  transform: translateX(100%);
+  transition: 500ms;
+  .listing-map {
+    height: 100%;
+  }
+  &.show-map {
+    transform: translateX(0);
+  }
+}
+
+.map-tabbing.theme-tabbing.nav-pills .nav-link {
+  width: auto;
+  border-radius: 10px;
+  height: auto;
+  padding: 10px 15px;
+
+  &.active {
+    background-color: var(--pink-color);
+    color: var(--white-color);
+  }
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+#listing-layout-one-tab {
+  &:after {
+    content: "Gallery";
+  }
+}
+
+#listing-layout-two-tab {
+  &:after {
+    content: "List";
+  }
+}
+body {
+  &.body-show-map {
+    .close-map {
+      display: inline-block;
+    }
+  }
+}
+.close-map {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999999;
+  left: auto;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: none;
+  cursor: pointer;
+}
+body {
+  &.user-is-logged-in {
+    .not-logged-in-only {
+      display: none;
+    }
+  }
+}
+.page-template-search-listing {
+  @media (min-width: 1400px) {
+    .row-cols-xxl-3 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  }
+  &.user-is-not-logged-in {
+    header {
+      .button-box {
+        display: none !important;
+      }
+      .order-lg-last {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.wedding-listing .img .img-content {
+  a {
+    padding: 35%;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.avatar-wrap {
+  img {
+    display: none;
+  }
+}
+
+.profile-avatar {
+  display: none !important;
+}
+
+#weddingdir_find_listing_section {
+  .col-xxl-7 {
+    width: 100%;
+  }
+}
+
+.password-eye {
+  position: relative;
+  .fa {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.listing-singular-post-features {
+  list-style: none;
+  li {
+    i {
+      margin-right: 5px;
+    }
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
+.page-template-couple-dashboard {
+  --weddingdir-color-dark-cyan: #e31f71;
+  .offcanvas-collapse-mobile {
+    .user-profile {
+      display: none !important;
+    }
+  }
+  .card-shadow {
+    margin-bottom: 50px;
+  }
+  .top-holder {
+    margin-top: 30px;
+  }
+  .couple-img-wrap {
+    .couple-btn {
+      left: 20px;
+      text-align: center;
+      #button_id_couple_dashboard_image {
+        .fa {
+          &:after {
+            content: "Change";
+            font-family: 'Nunito', sans-serif;
+            margin-left: 5px;
+          }
+        }
+      }
+      .weddingdir-share-post-model {
+        background-color: #716D6C;
+        border-color: #716D6C;
+        color: var(--white-color);
+      }
+    }
+  }
+  .sidebar-nav.sidebar-nav {
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        a {
+          font-weight: 400;
+        }
+        i {
+          display: none;
+        }
+        &:nth-child(1) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          order: 6;
+        }
+        &:nth-child(3) {
+          order: 5;
+        }
+        &:nth-child(4) {
+          order: 4;
+        }
+        &:nth-child(5) {
+          order: 3;
+        }
+        &:nth-child(8) {
+          order: 1;
+        }
+
+        &:nth-child(8) {
+          order: 7;
+        }
+        &:nth-child(6) {
+          display: none !important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.directory-pkg {
+  font: normal normal normal 50px/66px Old Standard TT !important;
+}
+.pkg-name {
+  font-family: Nunito !important;
+}
+.border-pink {
+  border-color: #e31f71;
+}
+.text-pink {
+  color: #e31f71;
+}
+.bg-pink {
+  background-color: #e31f71;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+ color: #000000;
+}
+.spacing-1 {
+  letter-spacing: 1px;
+}
+
+.Sponsored-Listing-section {
+  display: flex;
+}
+.Sponsored.Listing-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.heading h1 {
+  font-size: 47px;
+  font-family: Old Standard TT, Regular !important;
+}
+button.Subscribe {
+  border-radius: 33px;
+  padding: 15px 40px;
+  border: 1px solid #e63e84;
+  background-color: white;
+  color: #e63e84;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e4e4e4;
+  padding: 30px 20px 0px;
+  border-radius: 10px;
+  width: 100%;
+}
+span.month {
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .directory-pkg {
+    font: normal normal normal 30px / 45px Old Standard TT !important;
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+  .Sponsored.Listing-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Sponsored.Listing-section {
+    display: contents;
+  }
+}
+@media screen and (min-width: 767px) {
+  .m-md-100 {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .directory-pkg {
+    font: normal normal normal 22px / 45px Old Standard TT !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .heading h1 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .detail {
+    padding: 10px 7px 0px;
+  }
+  button.Subscribe {
+    padding: 10px 20px;
+  }
+  .row {
+    overflow: hidden;
+  }
+}
+.bg-gray{
+   color :#000000 !important;
+}
+.details h6 {
+  color: #000000;
+  font-family: Nunito, SemiBold !important;
+  opacity: 1;
+  font-weight: 600;
+}
+.text-danger {
+  color: #e31f71 !important;
+}
+.details h3 {
+    font-family: 'Nunito';
+}
