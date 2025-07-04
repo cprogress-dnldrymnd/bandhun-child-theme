@@ -937,6 +937,7 @@ input.error {
     position: static;
     width: 100%;
     transform: none;
+    padding: 0 !important;
     h1 {
       text-align: left;
       color: var(--e-global-color-text);

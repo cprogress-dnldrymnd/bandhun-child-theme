@@ -583,7 +583,8 @@ input.error {
 .slider-versin-two.slider-versin-two .slider-content {
   position: static;
   width: 100%;
-  transform: none; }
+  transform: none;
+  padding: 0 !important; }
   .slider-versin-two.slider-versin-two .slider-content h1 {
     text-align: left;
     color: var(--e-global-color-text);
