@@ -1029,6 +1029,7 @@ body {
 }
 
 footer .footer-section.footer-section {
+  padding-bottom: 0;
   background-color: transparent;
   .widget-title {
     color: var(--e-global-color-text);
@@ -1076,4 +1077,10 @@ footer .footer-section.footer-section {
   background-color: transparent;
   border-radius: 34px;
   border: 1px solid var(--light-gray-color);
+}
+
+.copyrights {
+  background-color: transparent;
+  color: var(--e-global-color-text);
+  font-size: inherit;
 }
