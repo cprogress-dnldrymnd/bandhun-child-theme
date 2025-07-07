@@ -761,4 +761,7 @@ footer .footer-section.footer-section {
   .copyrights-link.copyrights-link ul li {
     float: none; }
 
+p:last-child {
+  margin-bottom: 0; }
+
 /*# sourceMappingURL=style.css.map */
