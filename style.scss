@@ -1087,6 +1087,10 @@ footer .footer-section.footer-section {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
     padding: 100px 6vw;
+    @media (max-width: 575px) {
+      padding: 40px 10px;
+      border-radius: 0;
+    }
   }
 
   .row {
@@ -1095,6 +1099,11 @@ footer .footer-section.footer-section {
     > div {
       padding-left: 10px;
       padding-right: 10px;
+      @media (max-width: 575px) {
+        &:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
     }
   }
 }
