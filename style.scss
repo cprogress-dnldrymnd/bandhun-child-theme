@@ -1139,3 +1139,12 @@ footer .footer-section.footer-section {
   align-items: center;
   justify-content: center;
 }
+
+.copyrights-link.copyrights-link {
+  ul {
+    display: inline-flex;
+    li {
+      float: none;
+    }
+  }
+}

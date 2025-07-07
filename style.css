@@ -741,4 +741,9 @@ footer .footer-section.footer-section {
   align-items: center;
   justify-content: center; }
 
+.copyrights-link.copyrights-link ul {
+  display: inline-flex; }
+  .copyrights-link.copyrights-link ul li {
+    float: none; }
+
 /*# sourceMappingURL=style.css.map */
