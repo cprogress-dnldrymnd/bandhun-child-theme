@@ -699,7 +699,8 @@ footer .footer-section.footer-section {
       flex-direction: column;
       gap: 20px; } }
   footer .footer-section.footer-section .mr-top-footer > div > div {
-    width: 100% !important; }
+    width: 100% !important;
+    margin-bottom: 0 !important; }
   footer .footer-section.footer-section .container {
     background-color: var(--e-global-color-f8f15ab);
     border-radius: 43px;
@@ -714,9 +715,6 @@ footer .footer-section.footer-section {
     footer .footer-section.footer-section .row > div {
       padding-left: 10px;
       padding-right: 10px; }
-      @media (max-width: 575px) {
-        footer .footer-section.footer-section .row > div:last-child {
-          margin-bottom: 0 !important; } }
 
 .container.container {
   max-width: 1740px; }

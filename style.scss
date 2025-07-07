@@ -1087,6 +1087,7 @@ footer .footer-section.footer-section {
   .mr-top-footer {
     > div > div {
       width: 100% !important;
+      margin-bottom: 0 !important;
     }
   }
   .container {
@@ -1105,11 +1106,6 @@ footer .footer-section.footer-section {
     > div {
       padding-left: 10px;
       padding-right: 10px;
-      @media (max-width: 575px) {
-        &:last-child {
-          margin-bottom: 0 !important;
-        }
-      }
     }
   }
 }
