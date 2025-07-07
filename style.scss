@@ -1069,6 +1069,13 @@ footer .footer-section.footer-section {
   .mc4wp-form-fields {
     .mb-3 {
       flex-grow: 1;
+      @media (max-width: 575px) {
+        margin-bottom: 0 !important;
+      }
+    }
+    @media (max-width: 575px) {
+      flex-direction: column;
+      gap: 20px;
     }
   }
   .mr-top-footer {
