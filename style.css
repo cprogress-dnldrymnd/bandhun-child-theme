@@ -649,19 +649,25 @@ body {
   display: none !important; }
 
 .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title-icon {
-  width: 50px;
-  height: 50px;
-  flex: 0 0 50px;
+  --svg-size: 20px;
+  --button-size: 50px;
+  width: var(--button-size);
+  height: var(--button-size);
+  flex: 0 0 var(--button-size);
   background-color: var(--e-global-color-accent);
   border-radius: 50%;
   justify-content: center; }
   .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title-icon span {
-    width: 20px;
-    height: 20px;
+    width: var(--svg-size);
+    height: var(--svg-size);
     justify-content: center; }
     .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title-icon span svg {
-      width: 20px;
-      height: 20px; }
+      width: var(--svg-size);
+      height: var(--svg-size); }
+  @media (max-width: 575px) {
+    .elementor-widget-n-accordion.elementor-widget-n-accordion .e-n-accordion-item-title-icon {
+      --svg-size: 15px;
+      --button-size: 30px; } }
 
 footer .footer-section.footer-section {
   padding-bottom: 0;
