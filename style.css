@@ -675,10 +675,16 @@ footer .footer-section.footer-section {
   footer .footer-section.footer-section .widget-title {
     color: var(--e-global-color-text);
     font-size: 27px; }
+    @media (max-width: 575px) {
+      footer .footer-section.footer-section .widget-title {
+        font-size: 24px; } }
   footer .footer-section.footer-section .footer-widget ul li a {
     font-size: 27px;
     color: var(--e-global-color-text);
     font-family: "Georgia", Sans-serif; }
+    @media (max-width: 575px) {
+      footer .footer-section.footer-section .footer-widget ul li a {
+        font-size: 20px; } }
   footer .footer-section.footer-section .footer-widget p {
     font-weight: 400;
     color: var(--e-global-color-text);

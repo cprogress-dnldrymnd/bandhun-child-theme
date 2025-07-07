@@ -1049,6 +1049,9 @@ footer .footer-section.footer-section {
   .widget-title {
     color: var(--e-global-color-text);
     font-size: 27px;
+    @media (max-width: 575px) {
+      font-size: 24px;
+    }
   }
   .footer-widget {
     ul {
@@ -1057,6 +1060,9 @@ footer .footer-section.footer-section {
           font-size: 27px;
           color: var(--e-global-color-text);
           font-family: "Georgia", Sans-serif;
+          @media (max-width: 575px) {
+            font-size: 20px;
+          }
         }
       }
     }
