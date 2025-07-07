@@ -761,7 +761,8 @@ footer .footer-section.footer-section {
   .copyrights-link.copyrights-link ul li {
     float: none; }
 
-p:last-child {
-  margin-bottom: 0; }
+@media (max-width: 575px) {
+  p:last-child {
+    margin-bottom: 0 !important; } }
 
 /*# sourceMappingURL=style.css.map */
