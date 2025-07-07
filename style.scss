@@ -924,6 +924,10 @@ input.error {
       font-size: 18px;
       font-weight: 500;
     }
+    @media (max-width: 576px) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
   }
   .navbar-brand img {
     @media (max-width: 575px) {
@@ -938,10 +942,6 @@ input.error {
       padding: 10px !important;
       border-radius: 20px;
     }
-  }
-  @media (max-width: 576px) {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 
