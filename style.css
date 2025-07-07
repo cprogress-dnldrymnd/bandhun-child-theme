@@ -753,7 +753,8 @@ footer .footer-section.footer-section {
   justify-content: center; }
 
 .copyrights-link.copyrights-link ul {
-  display: inline-flex; }
+  display: inline-flex;
+  padding: 0; }
   .copyrights-link.copyrights-link ul li {
     float: none; }
 
