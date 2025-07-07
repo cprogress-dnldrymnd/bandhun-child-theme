@@ -1081,6 +1081,15 @@ footer .footer-section.footer-section {
     border-radius: 43px;
     padding: 100px 6vw;
   }
+
+  .row {
+    --bs-gutter-y: 0;
+    --bs-gutter-x: 0;
+    > div {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
 }
 
 .container.container {
