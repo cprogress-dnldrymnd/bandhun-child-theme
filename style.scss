@@ -925,10 +925,23 @@ input.error {
       font-weight: 500;
     }
   }
+  .navbar-brand img {
+    @media (max-width: 575px) {
+      height: 40px;
+    }
+  }
   .container {
     background-color: var(--white-color);
     border-radius: 51px;
     padding: 15px 4vw !important;
+    @media (max-width: 576px) {
+      padding: 10px !important;
+      border-radius: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 

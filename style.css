@@ -575,10 +575,21 @@ input.error {
     padding: 10px;
     font-size: 18px;
     font-weight: 500; }
+@media (max-width: 575px) {
+  .header-version-one.header-version-one .navbar-brand img {
+    height: 40px; } }
 .header-version-one.header-version-one .container {
   background-color: var(--white-color);
   border-radius: 51px;
   padding: 15px 4vw !important; }
+  @media (max-width: 576px) {
+    .header-version-one.header-version-one .container {
+      padding: 10px !important;
+      border-radius: 20px; } }
+@media (max-width: 576px) {
+  .header-version-one.header-version-one {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
 
 .slider-versin-two.slider-versin-two .slider-content {
   position: static;
