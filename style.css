@@ -610,6 +610,9 @@ input.error {
     @media (max-width: 767px) {
       .slider-versin-two.slider-versin-two .slider-content h1 {
         font-size: 32px; } }
+    @media (max-width: 575px) {
+      .slider-versin-two.slider-versin-two .slider-content h1 {
+        font-size: 28px; } }
   .slider-versin-two.slider-versin-two .slider-content .lead {
     display: none;
     color: var(--e-global-color-text); }
